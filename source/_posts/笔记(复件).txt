@@ -1,0 +1,68 @@
+---
+title: 笔记
+date: 2018-12-24 14:57:57
+tags:
+---
+hexo + github 搭建个人博客
+# node环境配置
+##linux操作系统
+1.浏览器打开 https://nodejs.org,下载10.14.2版
+2.默认下载到 /root/下载 路径下 解压
+```bash
+tar -xf node-v18.14.2-linux-x64.tar
+```
+3.创建node和npm的软链接
+    ln -s /root/下载/node-v10.14.2-linux-x64
+    /bin/node/sbin/node
+    ln -s /root/下载/node-v10.14.2-linux-x64
+    /bin/npm/sbin/npm
+4.通过npm包管理器全局hexo脚手架（框架）
+    npm install hexo-cli -g
+5.创建hexo的软链接
+
+## windows环境下：
+1.浏览器打开https://nodejs.org,下载10.14.2版的安装包
+2.双击安装包安装，默认配置
+3.使用npm全局安装hexo
+    win+r输入cmd回车，输入以下命令：
+    npm install hexo-cli -g
+#项目搭建
+##初始化博客项目
+终端切换到桌面，然后：
+```bash
+hexo init blog
+```
+init：初始化
+blog:项目名称
+该命令执行完毕后会在桌面生成一个blog文件夹
+## 进入blog目录
+cd blog
+## 安装项目依赖包
+npm install
+## 启动项目服务
+hexo s
+## 预览项目
+在浏览器地址栏输入：https://localhost:4000 回车访问
+
+#回家之后
+1.安装node
+2.安装hexo脚手架
+3.安装git
+    打开 https://git-scm.com
+4.初始化项目
+在桌面空白区域右键选择“git bash here"
+git int blog
+5.进入blog
+    cd blogj
+6.安装依赖
+    upm install
+7. 启动服务
+  hexo s
+8. 预览
+9.切换主题
+    在blog所在路径
+    git clone https://github.com/WongMonHo/hexo-theme-miho.git themes/miho
+    找到blog目录的_cofig.yml. 修改 theme: miho
+10.换图
+网站图标：blog/themes/miho/source
+其他图：blog/themes/miho/source/images
