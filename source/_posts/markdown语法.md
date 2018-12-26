@@ -2,6 +2,9 @@
 title: markdown语法
 date: 2018-12-25 09:47:10
 tags:
+- 语法
+- markdown
+cover_picture: /images/linux.jpg
 ---
 # 标题相关
 ## 二级标题
