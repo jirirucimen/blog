@@ -41,8 +41,9 @@ menu:
 #    target: true         Whether to jump out | 是否跳出
 social:
   home:
-    title: 张三
-    url: //xxx.com
+    title: 许鑫
+
+    url: //biluojiutian.top
     target: true
   github:
     title: Github
@@ -111,7 +112,21 @@ reward:
 changyan_appid: false
 changyan_appkey: false
 # 友言，输入id
-youyan_id: false
+youyan_id: true
+valine:
+    enable: true
+    appId: Dsvphijsi840DW2wOPysLmRd-gzGzoHsz
+    appKey: Ih8mS1bzf8ude3qjTvFJo701
+    notify: false
+    verify: false
+    avatar: mp
+    placeholder: 说点什么...
+    guest_info: nick,mail,link
+    pageSize: 10
+    lang: zh-cn
+
+
+
 # disqus
 disqus: false
 # gitment  https://github.com/imsun/gitment
@@ -138,4 +153,4 @@ access_counter:
   site_pv: 总访问量：
 
 # Copyright Information | 版权信息
-copyright: 2018 MinHow
+copyright: 2018 许鑫
